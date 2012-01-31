@@ -22,6 +22,10 @@
 	Kunena template. Activating Skinner in the template
 	parameters will load this file and make it adopt
 	the colors of the main site template.
+	
+	Custom Category Colour options should still work when
+	Blend is enabled. Attempting to add the .css changes
+	required to this branch.
 
 ----------------------------------------------------------*/
 	
