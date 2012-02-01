@@ -26,6 +26,12 @@
 	Custom Category Colour options should still work when
 	Blend is enabled. Attempting to add the .css changes
 	required to this branch.
+	
+	Added at the bottom of the file (just copy paste at
+	the moment from default.css for forums)
+	
+	Bodging in ;opacity:0.8; at the end of the statements.
+	I will test if soonish.
 
 ----------------------------------------------------------*/
 	
@@ -468,4 +474,98 @@ ul.autocompleter-choices,
 #lbBottom  {
 	border: 0 none;
 	font-family: inherit;
+}
+
+/* CSS suffix support for category specific styling (Leave this section at the bottom)
+----------------------------------------------------------------------------------------------- */
+
+/* -red category suffix
+------------------------------------------------------ */
+
+#Kunena .kforum-headerdesc-red {
+color: #000000;
+background-color: #FFDDDD; opacity:0.8;
+}
+#Kunena tr.krow1-red td {
+background-color: #FFDDDD; opacity:0.8;
+}
+#Kunena tr.krow2-red td {
+background-color: #FFCFCF; opacity:0.8;
+}
+
+/* -green category suffix
+----------------------------------------------------- */
+
+#Kunena .kforum-headerdesc-green {
+background-color: #d2f8db; opacity:0.8;
+}
+#Kunena tr.krow1-green td {
+background-color: #d2f8db; opacity:0.8;
+}
+#Kunena tr.krow2-green td {
+background-color: #bfe5c7; opacity:0.8;
+}
+
+/* -yellow category suffix
+------------------------------------------------------ */
+
+#Kunena .kforum-headerdesc-yellow {
+color: #000000;
+background-color: #FFFFCC; opacity:0.8;
+}
+#Kunena tr.krow1-yellow td {
+background-color: #FFFFCC; opacity:0.8;
+}
+#Kunena tr.krow2-yellow td {
+background-color: #FFFFAA; opacity:0.8;
+}
+
+/* -blue category suffix
+------------------------------------------------------- */
+
+#Kunena .kforum-headerdesc-blue {
+color: #000000;
+background-color: #c3f0ff; opacity:0.8;
+}
+#Kunena tr.krow1-blue td {
+background-color: #c3f0ff; opacity:0.8;
+}
+#Kunena tr.krow2-blue td {
+background-color: #b1e3ff; opacity:0.8;
+}
+
+/* -grey category suffix
+------------------------------------------------------ */
+
+#Kunena .kforum-headerdesc-grey {
+color: #000000;
+background-color: #e5e5e5; opacity:0.8;
+}
+#Kunena tr.krow1-grey td {
+background-color: #e5e5e5; opacity:0.8;
+}
+#Kunena tr.krow2-grey td {
+background-color: #d5d5d5; opacity:0.8;
+}
+
+/* -pink category suffix
+---------------------------------------------------- */
+
+#Kunena .kforum-headerdesc-pink {
+color: #000000;
+background-color: #ffddff; opacity:0.8;
+}
+#Kunena tr.krow1-pink td {
+background-color: #ffddff; opacity:0.8;
+}
+#Kunena tr.krow2-pink td {
+background-color: #ffd0ff; opacity:0.8;
+}
+
+/* for form-validation
+------------------------------------------------------ */
+
+#Kunena #kpost-message .invalid {
+border-color: red !important;
+background-color: #FFDDDD !important;
 }
